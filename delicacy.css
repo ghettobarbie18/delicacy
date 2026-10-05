@@ -4,14 +4,17 @@
     margin: 40px auto;
     position: relative;
     overflow: hidden;
-    border-radius: 0px 0px 40px 40px; */ different corners \*
+    box-shadow:
+    0 0 10px #9d164b,
+    0 0 30px #800000,
+    10px 10px 30px rgba(0,0,0,.7);
 }
 
 .hover-template::before {
     content: "";
     position: absolute;
     inset: 0;
-    padding: 8px;
+    padding: 3px;
     background: linear-gradient(
         135deg,
         #800000,
