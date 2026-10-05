@@ -8,7 +8,7 @@
     border: 1px solid #ff0000;
 }
 
-    .hover-template::before {
+.hover-template::before {
     content: "";
     position: absolute;
     inset: 0;
