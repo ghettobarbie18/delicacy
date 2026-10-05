@@ -6,6 +6,7 @@
     overflow: hidden;
     background: #111;
     border: 1px solid #ff0000;
+}
 
     .hover-template::before {
     content: "";
