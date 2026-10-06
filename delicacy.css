@@ -72,7 +72,7 @@
 }
 
 .hover-title {
-    margin: 0 0 8px;
+    margin: 50 0 8px;
     font-size: 40px;
     font-family: Georgia, serif;
     color: #b97176;
@@ -84,7 +84,7 @@
 }
 
 .hover-quote {
-    margin: 0 0 8px;
+    margin: 30 0 8px;
     max-width: 450px;
     font-size: 12px;
     font-family: Georgia, serif;
