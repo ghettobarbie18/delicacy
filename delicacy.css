@@ -65,7 +65,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 15px 15px 30px 80px;
+    padding: 30px;
     color: #fff;
     text-align: left;
     pointer-events: none;
@@ -73,7 +73,7 @@
 
 .hover-title {
     position: relative;
-    left: -100px;
+    left: -200px;
     font-size: 150px;
     font-family: "Splash", cursive;
     font-weight: 400;
@@ -88,6 +88,7 @@
 .hover-quote {
     position: relative;
     left: -20px;
+    top: -50px;
     max-width: 530px;
     font-size: 14px;
     font-family: Georgia, serif;
