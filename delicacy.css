@@ -74,7 +74,9 @@
 .hover-title {
     margin: -50px 0 8px;
     font-size: 40px;
-    font-family: Georgia, serif;
+    font-family: "Splash", cursive;
+    font-weight: 400;
+    font-style: normal;
     color: #b97176;
     background: linear-gradient( to right, #e666ff, #c400cc, #880099 ); 
     -webkit-background-clip: text; 
