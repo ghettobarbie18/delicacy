@@ -75,10 +75,12 @@
     margin: 0 0 8px;
     font-size: 40px;
     font-family: Georgia, serif;
+    color: #b97176;
     text-shadow:
-        0 0 5px #f00,
-        0 0 10px #f00,
-        0 0 20px #900;
+        0 0 5px #b97176,
+        0 0 10px #9d1b22,
+        0 0 20px #7f2c32,
+        0 0 30px #3c1516;
 }
 
 .hover-quote {
@@ -98,9 +100,10 @@
     font-style: normal;
     color: #e666ff;
     text-shadow:
-        0 0 5px #880099,
-        0 0 10px #571357,
-        0 0 20px #4b0726;
+        0 0 5px #e666ff,
+        0 0 10px #bc1e85,
+        0 0 20px #9d1b22,
+        0 0 30px #7f2c32;
     line-height: 1.3;
 }
 
