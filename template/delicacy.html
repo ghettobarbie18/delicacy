@@ -6,26 +6,6 @@
 <title>Delicacy Template</title>
 
 <style>
-.hover-title {
-    margin: 0 0 15px;
-    font-size: 40px;
-    font-family: Georgia, serif;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 0 10px #ff00ff;
-}
-
-.hover-quote {
-    margin: 0;
-    max-width: 450px;
-    font-size: 18px;
-    font-family: Georgia, serif;
-    font-style: italic;
-    color: #fff;
-    text-align: center;
-    line-height: 1.5;
-}
-    
 .hover-template {
     width: 600px;
     height: 700px;
@@ -64,6 +44,41 @@
     height: 100%;
     background: url("https://raw.githubusercontent.com/ghettobarbie18/delicacy/refs/heads/main/val.jpg") center / cover no-repeat;
     transition: .5s ease;
+}
+
+.hover-text {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    pointer-events: none;
+    transition: .5s ease;
+}
+
+.hover-title {
+    margin: 0 0 15px;
+    font-size: 40px;
+    font-family: Georgia, serif;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+.hover-quote {
+    margin: 0;
+    max-width: 450px;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.hover-template:hover .hover-text {
+    opacity: 0;
 }
 
 .hover-content {
@@ -106,15 +121,12 @@
 
     <div class="hover-image"></div>
 
-    <div class="hover-content">
-        <h1 class="hover-title">Valak Mortem</h1>
-
-        <p class="hover-quote">
-            "Your quote goes here."
-        </p>
-        <div class="hover-title">TITLE</div>
-        <div class="hover-text">YOUR TEXT HERE</div>
+    <div class="hover-text">
+        <h1 class="hover-title">Your Title</h1>
+        <p class="hover-quote">"Your quote goes here."</p>
     </div>
+
+    <div class="hover-content"></div>
 
 </div>
 
