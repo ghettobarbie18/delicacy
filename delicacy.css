@@ -76,16 +76,16 @@
     font-size: 40px;
     font-family: Georgia, serif;
     text-shadow:
-        0 0 5px #f00,
-        0 0 10px #f00,
-        0 0 20px #900,
-        0 0 40px #900;
+        0 0 5px #c400cc,
+        0 0 10px #880099,
+        0 0 20px #571357,
+        0 0 40px ##4b0726;
 }
 
 .hover-quote {
     margin: 0 0 8px;
     max-width: 450px;
-    font-size: 18px;
+    font-size: 13px;
     font-family: Georgia, serif;
     font-style: italic;
     line-height: 1.5;
@@ -94,7 +94,7 @@
 .hover-quote2 {
     margin: 0;
     max-width: 450px;
-    font-size: 26px;
+    font-size: 18px;
     font-family: "Brush Script MT", cursive;
     font-style: normal;
     color: #ff66cc;
