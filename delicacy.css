@@ -65,14 +65,15 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 30px 30px 30px 20px;
+    padding: 15px 15px 30px 5px;
     color: #fff;
     text-align: left;
     pointer-events: none;
 }
 
 .hover-title {
-    margin: -100px 0 80px;
+    position: relative;
+    left: -50px;
     font-size: 80px;
     font-family: "Splash", cursive;
     font-weight: 400;
