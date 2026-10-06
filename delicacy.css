@@ -65,7 +65,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 15px 15px 30px 40px;
+    padding: 15px 15px 30px 20px;
     color: #fff;
     text-align: left;
     pointer-events: none;
@@ -83,7 +83,7 @@
 
 .hover-quote {
     margin: 0 0 8px;
-    max-width: 450px;
+    max-width: 500px;
     font-size: 12px;
     font-family: Georgia, serif;
     font-style: italic;
@@ -92,7 +92,7 @@
 
 .hover-quote2 {
     margin: 0;
-    max-width: 450px;
+    max-width: 500px;
     font-size: 16px;
     font-family: "Brush Script MT", cursive;
     font-style: normal;
