@@ -74,7 +74,7 @@
 .hover-title {
     position: relative;
     left: -100px;
-    top: 50px;
+    top: 15px;
     font-size: 70px !important;
     font-family: "Island Moments", cursive;
     font-weight: 400;
@@ -100,7 +100,7 @@
 .hover-quote2 {
     position: relative;
     left: 15px;
-    top: 5px;
+    top: -50px;
     max-width: 550px;
     font-size: 20px;
     font-family: "Metal Mania", system-ui;
@@ -111,7 +111,7 @@
         0 0 5px #e666ff,
         0 0 5px #bc1e85,
         0 0 5px #9d1b22,
-        0 0 10px #7f2c32;
+        0 0 5px #7f2c32;
     line-height: 1.3;
 }
 
