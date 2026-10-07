@@ -73,7 +73,7 @@
 
 .hover-title {
     position: relative;
-    left: -100px;
+    left: -120px;
     top: 15px;
     font-size: 70px !important;
     font-family: "Island Moments", cursive;
@@ -92,8 +92,9 @@
     top: -50px;
     max-width: 600px;
     font-size: 14px;
-    font-family: Georgia, serif;
-    font-style: italic;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
     line-height: 1.5;
 }
 
@@ -102,7 +103,7 @@
     left: 15px;
     top: -50px;
     max-width: 550px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Metal Mania", system-ui;
     font-weight: 400;
     font-style: normal;
