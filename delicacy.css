@@ -65,7 +65,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 30px;
+    padding: 20px;
     color: #fff;
     text-align: left;
     pointer-events: none;
@@ -73,7 +73,7 @@
 
 .hover-title {
     position: relative;
-    left: -100px;
+    left: -80px;
     top: 0;
     margin-bottom: 0;
     font-size: 70px !important;
@@ -104,7 +104,7 @@
 .hover-quote2 {
     position: relative;
     top: 0;
-    left: 25px;
+    left: 30px;
     max-width: 550px;
     margin-top: 0;
     font-size: 20px;
