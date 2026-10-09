@@ -71,26 +71,43 @@
     pointer-events: none;
 }
 
+```css
+.hover-text {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    color: #fff;
+    text-align: left;
+    pointer-events: none;
+}
+
 .hover-title {
     position: relative;
     left: -120px;
-    top: 150px;
+    top: 0;
+    margin-bottom: 10px;
     font-size: 70px !important;
     font-family: "Island Moments", cursive;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 8px !important;
     color: #330000;
-    background: linear-gradient( to right, #e666ff, #c400cc, #880099, #2f021b ); 
-    -webkit-background-clip: text; 
+    background: linear-gradient(to right, #e666ff, #c400cc, #880099, #2f021b);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hover-quote {
     position: relative;
-    max-width: 800px;
-    top: -50px;
+    top: 0;
     left: 15px;
+    max-width: 550px;
+    margin-bottom: 15px;
     font-size: 12px;
     font-family: "Caudex", serif;
     font-weight: 400;
@@ -101,8 +118,10 @@
 
 .hover-quote2 {
     position: relative;
+    top: 0;
     left: 15px;
     max-width: 550px;
+    margin-top: 0;
     font-size: 20px;
     font-family: "Metal Mania", system-ui;
     font-weight: 400;
