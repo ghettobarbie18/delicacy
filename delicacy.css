@@ -104,7 +104,7 @@
 .hover-quote2 {
     position: relative;
     top: 0;
-    left: 35px;
+    left: 70px;
     max-width: 550px;
     margin-bottom: 3px;
     font-size: 11px;
@@ -137,7 +137,7 @@
 .special-font {
     font-family: "Nosifer", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic;
     font-size: 15px;
     color: #f9232c;
     letter-spacing: 3px;
