@@ -73,7 +73,7 @@
 
 .hover-title {
     position: relative;
-    left: -120px;
+    left: -100px;
     top: 0;
     margin-bottom: 10px;
     font-size: 70px !important;
@@ -89,11 +89,11 @@
 
 .hover-quote {
     position: relative;
-    top: 0;
+    top: 10px;
     left: 15px;
     max-width: 550px;
     margin-bottom: 15px;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Caudex", serif;
     font-weight: 400;
     font-style: normal;
@@ -111,7 +111,7 @@
     font-family: "Metal Mania", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: #f9232c;
+    color: black;
     text-shadow:
         0 0 5px #e666ff,
         0 0 5px #bc1e85,
