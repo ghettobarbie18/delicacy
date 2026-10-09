@@ -90,7 +90,7 @@
 .hover-quote {
     position: relative;
     top: 0;
-    left: 15px;
+    left: 25px;
     max-width: 550px;
     margin-bottom: 3px;
     font-size: 11px;
@@ -104,7 +104,7 @@
 .hover-quote2 {
     position: relative;
     top: 0;
-    left: 15px;
+    left: 35px;
     max-width: 550px;
     margin-bottom: 3px;
     font-size: 11px;
