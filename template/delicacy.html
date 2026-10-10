@@ -100,32 +100,31 @@
 
 .hover-float {
     position: absolute;
-    top: 20px;
-    right: -80px;
-    transform: translateX(-50%);
+    top: 50px;
+    right: 20%;
     width: 380px;
     height: 200px;
     object-fit: cover;
-    z-index: 6;
+    z-index: 10;
     pointer-events: none;
-    animation: floatGlow 4s ease-in-out infinite; }
+    animation: floatGlow 4s ease-in-out infinite;
+    will-change: transform, filter;
 }
 
-@keyframes floatGlow { 
-    0% { 
-        transform: translateY(0); 
-        filter: drop-shadow(0 0 5px #800000); 
-    } 
-    50% { 
-        transform: translateY(-15px); 
-        filter: 
-            drop-shadow(0 0 12px #d10000) 
-            drop-shadow(0 0 22px #960018); 
-    } 
-    100% { 
-        transform: translateY(0); 
-        filter: drop-shadow(0 0 5px #800000); 
-    } 
+@keyframes floatGlow {
+    0%, 100% {
+        transform: translateY(0);
+        filter:
+            drop-shadow(0 0 8px #800000)
+            drop-shadow(0 0 12px #960018);
+    }
+    50% {
+        transform: translateY(-15px);
+        filter:
+            drop-shadow(0 0 15px #ff0000)
+            drop-shadow(0 0 30px #d10000)
+            drop-shadow(0 0 45px #800000);
+    }
 }
 
 .hover-template:hover .hover-content {
