@@ -86,7 +86,7 @@
 .hover-float {
     position: absolute;
     top: 6px;
-    right: -20px;
+    right: -5px;
     width: 250px;
     height: 180px;
     object-fit: cover;
@@ -125,7 +125,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
     text-align: left;
     pointer-events: none;
