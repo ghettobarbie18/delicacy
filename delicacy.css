@@ -85,10 +85,10 @@
 
 .hover-float {
     position: absolute;
-    top: 8px;
+    top: 6px;
     right: -30px;
-    width: 280px;
-    height: 200px;
+    width: 200px;
+    height: 180px;
     object-fit: cover;
     z-index: 10;
     pointer-events: auto;
@@ -98,9 +98,9 @@
 
 .hover-float:hover {
     filter:
-        drop-shadow(0 0 10px #ff0000)
-        drop-shadow(0 0 25px #d10000)
-        drop-shadow(0 0 40px #800000);
+        drop-shadow(0 0 10px #e666ff)
+        drop-shadow(0 0 25px #e666ff)
+        drop-shadow(0 0 40px #e666ff);
 }
 
 @keyframes float {
