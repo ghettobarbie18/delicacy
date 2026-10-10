@@ -64,6 +64,21 @@
     transition: .5s ease;
 }
 
+.hover-box {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background: rgba(20, 0, 0, .85);
+    border: 1px solid #d10000;
+    color: white;
+    font-family: "Caudex", serif;
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
 .hover-template:hover .hover-content {
     opacity: 1;
 }
@@ -188,9 +203,13 @@
     <div class="hover-quote3">and this grin that made you realize, she has probably lost count</div>
 </div>
 
-    <div class="hover-content">
-        <p>Your hidden text goes here.</p>
+<div class="hover-content">
+    <div class="hover-box">
+        <p>Your text goes here.</p>
+        <p>Add as many paragraphs as you need.</p>
+        <p>You can also use <span class="special-font">special fonts</span> inside this box.</p>
     </div>
+</div>
 
 </div>
 
