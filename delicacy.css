@@ -66,12 +66,12 @@
     font-size: 13px;
     line-height: 1.6;
     text-align: justify;
-    overflow-y: auto;
-    overflow-x; auto;
+    overflow: auto;
 }
 
 .hover-template:hover .hover-content {
     opacity: 1;
+    pointer-events: auto;
 }
 
 .hover-text {
