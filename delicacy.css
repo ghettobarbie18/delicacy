@@ -3,7 +3,7 @@
     height: 700px;
     margin: 40px auto;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .hover-template::before {
@@ -98,9 +98,9 @@
 
 .hover-float:hover {
     filter:
-        drop-shadow(0 0 10px #e666ff)
-        drop-shadow(0 0 25px #e666ff)
-        drop-shadow(0 0 40px #e666ff);
+        drop-shadow(0 0 5px #571357)
+        drop-shadow(0 0 10px #571357)
+        drop-shadow(0 0 20px #571357);
 }
 
 @keyframes float {
