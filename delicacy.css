@@ -86,7 +86,7 @@
 .hover-float {
     position: absolute;
     top: 6px;
-    right: -5px;
+    right: 10px;
     width: 250px;
     height: 180px;
     object-fit: cover;
