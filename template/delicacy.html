@@ -70,7 +70,13 @@
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
-    background: rgba(20, 0, 0, .85);
+    background: linear-gradient(
+        120deg,
+        #7b1113,
+        #630f0f,
+        #420a0e);
+    background-size: 200% 200%;
+    animation: gradientMove 8s ease infinite;
     border: 1px solid #d10000;
     color: white;
     font-family: "Caudex", serif;
@@ -78,6 +84,60 @@
     line-height: 1.6;
     text-align: justify;
     overflow: auto;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.hover-float {
+    position: absolute;
+    top: 50px;
+    right: 40%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    z-index: 6;
+    pointer-events: none;
+    animation: glow 3s infinite;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes glow { 
+    0% { 
+        opacity: .5; 
+    } 
+    50% { 
+        opacity: 1; 
+    } 
+    100% { 
+        opacity: .5; 
+    } 
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .hover-template:hover .hover-content {
@@ -206,6 +266,7 @@
 </div>
 
 <div class="hover-content">
+    <img class="hover-float" src="https://i.imgur.com/S1AqqH9.png" alt="">
     <div class="hover-box">
         Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 <p>
