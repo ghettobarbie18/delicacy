@@ -14,7 +14,7 @@
     height: 700px;
     margin: 40px auto;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
 }
     
 .hover-template::before {
@@ -97,11 +97,11 @@
 .hover-float {
     position: absolute;
     top: 6px;
-    right: -30px;
+    right: -20px;
     width: 250px;
     height: 180px;
     object-fit: cover;
-    z-index: 999;
+    z-index: 10;
     pointer-events: auto;
     animation: float 4s ease-in-out infinite;
     transition: filter .4s ease;
